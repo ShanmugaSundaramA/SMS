@@ -1,4 +1,4 @@
-
+//it is Database conectivity area...
 import java.sql.Connection;
 import java.sql.DriverManager;
 
