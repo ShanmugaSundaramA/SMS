@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+.header{	
+margin:-10px;
+}
+.title {
+color: white;
+background-color: black;
+text-align: center;
+font-size: 70px;
+padding: 10px;
+}
+
+ul {
+list-style-type: none;
+margin: 0px;
+padding: 0px; 
+background-color: grey;
+overflow: hidden;
+}
+
+li {
+text-align: center;	
+width:16.66%;	
+float: left;
+}
+@media only screen and (max-width: 800px){
+li{
+	width: 100%;
+}
+}
+li a {	
+text-decoration: none;
+display: block;
+padding:15px 30px;
+color: white;
+}
+
+li a:hover {
+color: black; 
+background-color: lightgrey;
+}
